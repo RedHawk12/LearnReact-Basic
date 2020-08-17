@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang ='pt-br'>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Inscrição</title>
+    </head>
+    <header class="header">
+        <a class="aubay" href="http://www.aubay.pt" target="_blank">Aubay</a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inscricao.html">SignInForm</a></li>
+            <li><a href="PalindromoChallenge.html">Palindromo</a></li>
+            <li><a href="./src/ReactAPP.html">React APP</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+    <Body id="bodys">
+      <div class="content">
+        <div class="introduction">
+          <h1>Inscrição:</h1>
+        </div>
+        
+        <form class="cadastro">
+        <ul class="outer">
+          <li id="nome-field">
+            <label for="nome">Nome:</label>
+            <input class="cadastro-input" type="text" id="nome">
+          </li>
+          <li id="sobrenome-field">
+            <label for="sobrenome">Sobrenome:</label>
+            <input class="cadastro-input" type="text" id="sobrenome">
+          </li>
+          <li id="email-field">
+            <label for="email">Email:</label>
+            <input class="cadastro-input" type="text" id="email">
+          </li>
+  
+          <li>
+            <p>Sexo:</p>
+            <ul class="inner">
+              <li>
+                <input type="radio" name="sex" id="masculino" value="Masculino">
+                <label for="masculino" name="sex-label">Masculino</label>
+              </li>
+              <li>
+                <input type="radio" name="sex" id="feminino" value="Feminino">
+                <label for="feminino" name="sex-label">Feminino</label>
+              </li>
+              <li>
+                <input type="radio" name="sex" id="outro" value="Outro">
+                <label for="outro" name="sex-label">Outro</label>
+              </li>
+            </ul class="inner">
+          </li>
+  
+          <li>
+            <p>Idade:</p>
+            <ul class="inner">
+              <li>
+                <input type="radio" name="age" id="dezoito-a-vinteenove">
+                <label for="dezoito-a-vinteenove" name="age-label">18 - 29</label>
+              </li>
+              <li>
+                <input type="radio" name="age" id="trinta-a-trintaenove">
+                <label for="trinta-a-trintaenove" name="age-label">30 - 39</label>
+              </li>
+              <li>
+                <input type="radio" name="age" id="quarenta-a-quarentaenove">
+                <label for="quarenta-a-quarentaenove" name="age-label">40 - 49</label>
+              </li>
+              <li>
+                <input type="radio" name="age" id="cinquenta-a-cinquentaenove">
+                <label for="cinquenta-a-cinquentaenove" name="age-label">50 - 59</label>
+              </li>
+              <li>
+                <input type="radio" name="age" id="sessenta-a-sessentaenove">
+                <label for="sessenta-a-sessentaenove" name="age-label">60 - 69</label>
+              </li>
+              <li>
+                <input type="radio" name="age" id="setenta-ou-mais">
+                <label for="setenta-ou-mais" name="age-label">70+</label>
+              </li>
+            </ul class="inner">
+          </li>
+  
+          <li class="termos">
+            <input type="checkbox" id="termos">
+            <label for="termos" id="termos-label">Aceito os termos.</label>
+          </li>
+  
+          <li id="divBotoes">
+            <button type="submit" class="cadastro-button" id="submeter">Submeter</button>
+          </li>
+        </ul>
+      </form>
+      </div>
+     <script src="main.js" ></script>    
+    </Body>
+</html>
